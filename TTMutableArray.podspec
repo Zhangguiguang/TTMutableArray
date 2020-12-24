@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  If you want to observe the changes in the elements of the mutable array, you can use the observable TTMutableArray.
+  If you want to KVO the changes in the elements of the mutable array, you can use the observable TTMutableArray.
   Or you can use the category method to add observer to any NSMutableArray.
                        DESC
 

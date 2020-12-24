@@ -72,15 +72,15 @@
 #pragma mark - TTMutableArrayObserver
 
 - (void)mutableArray:(NSMutableArray *)array didInsertObjects:(NSArray *)objects atIndexes:(NSIndexSet *)indexes {
-    NSLog(@"=================> insert %@, %@ \n %@", objects, indexes, array);
+    NSLog(@"========> did insert %@, %@ \n result %@", objects, indexes, array);
 }
 
 - (void)mutableArray:(NSMutableArray *)array didRemoveObjects:(NSArray *)objects atIndexes:(NSIndexSet *)indexes {
-    NSLog(@"=================> remove %@, %@ \n %@", objects, indexes, array);
+    NSLog(@"========> did remove %@, %@ \n result %@", objects, indexes, array);
 }
 
 - (void)mutableArray:(NSMutableArray *)array didReplaceObjects:(NSArray *)objects atIndexes:(NSIndexSet *)indexes {
-    NSLog(@"=================> replace %@, %@ \n %@", objects, indexes, array);
+    NSLog(@"========> did replace %@, %@ \n result %@", objects, indexes, array);
 }
 
 @end
