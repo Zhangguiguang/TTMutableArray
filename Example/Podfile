@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TTMutableArray_Example' do
+  pod 'TTMutableArray', :path => '../'
+
+  target 'TTMutableArray_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
