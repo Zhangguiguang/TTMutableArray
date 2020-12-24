@@ -1,0 +1,16 @@
+PODS:
+  - TTMutableArray (0.1.0)
+
+DEPENDENCIES:
+  - TTMutableArray (from `../`)
+
+EXTERNAL SOURCES:
+  TTMutableArray:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TTMutableArray: de02c1d9f22092b9f6902835351c143f44429125
+
+PODFILE CHECKSUM: 641cec2c65f3d34a1a4c6ee7ec977d968e762af6
+
+COCOAPODS: 1.8.4
