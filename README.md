@@ -2,7 +2,7 @@
 
 [![CI Status](https://img.shields.io/travis/GG/TTMutableArray.svg?style=flat)](https://travis-ci.org/GG/TTMutableArray)
 [![Version](https://img.shields.io/cocoapods/v/TTMutableArray.svg?style=flat)](https://cocoapods.org/pods/TTMutableArray)
-[![License](https://img.shields.io/cocoapods/l/TTMutableArray.svg?style=flat)](https://cocoapods.org/pods/TTMutableArray)
+[![License](https://img.shields.io/cocoapods/l/TTMutableArray.svg?style=flat)](https://github.com/Zhangguiguang/TTMutableArray/blob/main/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/TTMutableArray.svg?style=flat)](https://cocoapods.org/pods/TTMutableArray)
 
 ## Example
