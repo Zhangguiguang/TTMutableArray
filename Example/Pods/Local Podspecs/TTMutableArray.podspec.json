@@ -1,8 +1,8 @@
 {
   "name": "TTMutableArray",
-  "version": "0.1.0",
-  "summary": "A short description of TTMutableArray.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.0",
+  "summary": "A Mutable Array that can be observed.",
+  "description": "If you want to observe the changes in the elements of the mutable array, you can use the observable TTMutableArray.\nOr you can use the category method to add observer to any NSMutableArray.",
   "homepage": "https://github.com/GG/TTMutableArray",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/GG/TTMutableArray.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "9.0"

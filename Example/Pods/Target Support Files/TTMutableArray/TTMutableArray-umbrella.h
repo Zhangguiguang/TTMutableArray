@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "NSMutableArray+TTObserverable.h"
+#import "TTMutableArray.h"
 
 FOUNDATION_EXPORT double TTMutableArrayVersionNumber;
 FOUNDATION_EXPORT const unsigned char TTMutableArrayVersionString[];

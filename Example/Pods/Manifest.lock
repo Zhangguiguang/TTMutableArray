@@ -1,5 +1,5 @@
 PODS:
-  - TTMutableArray (0.1.0)
+  - TTMutableArray (1.0.0)
 
 DEPENDENCIES:
   - TTMutableArray (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TTMutableArray: de02c1d9f22092b9f6902835351c143f44429125
+  TTMutableArray: 3606d37f8d9aca6f992bfceb83531a5be13c041b
 
 PODFILE CHECKSUM: 641cec2c65f3d34a1a4c6ee7ec977d968e762af6
 

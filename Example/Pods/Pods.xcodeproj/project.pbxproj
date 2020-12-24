@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63489D627F217290579700C7BEE26361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		01DE0306EFC89ED6C8DDB19A8B2AA3D0 /* TTMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 802F44A25AA2ACF08AA9FA7421691609 /* TTMutableArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1824B1FD8F8AB4FCC15F122BB962AB65 /* NSMutableArray+TTObserverable.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DACC62EC14A077D6FB7E699D52BE85 /* NSMutableArray+TTObserverable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AA1619CC21AA8F1382859AE2DF38A57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		32654940143871449DD72FBBE99873B1 /* TTMutableArray-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9548F26E7B0E6E7ABA8595228E480C39 /* TTMutableArray-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48E4F33340D5540C9892B63CB0711215 /* TTMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A53423D5B091BEFE97ECDDD6AAD9E5EE /* TTMutableArray.m */; };
 		7E602097674E0E490CD48048545E32AF /* Pods-TTMutableArray_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F758CE0AE0AFF98904086F3072B3F2DE /* Pods-TTMutableArray_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86E8E007FE6E19BFCDE1BE531DD39AAD /* Pods-TTMutableArray_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F37060013F2FD67FB6945904C8A1ADDF /* Pods-TTMutableArray_Example-dummy.m */; };
-		BE8B627FDD8A635C125FA308B5E3A12C /* TTMutableArray-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17D08AA28EB2C52C88CDCF1CE37D3651 /* TTMutableArray-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3679FBA84918D22FA853F4A50C7B8D8 /* NSMutableArray+TTObserverable.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A805D2D587CAEF227E864F90E3FEBB /* NSMutableArray+TTObserverable.m */; };
 		BFDD1F341512C2E70E77D4A53F33D48F /* Pods-TTMutableArray_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 411D4425003F8AC3B98A4BC7CDA60D64 /* Pods-TTMutableArray_Tests-dummy.m */; };
 		C8B39B414E565FAEBB5AC1F97EAF27ED /* Pods-TTMutableArray_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B13EB404123DC41D421F7E80CABAAB /* Pods-TTMutableArray_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBBC821F1FDB98ADE52E148DB5CEC99F /* TTMutableArray-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB05FE5AF8E39A7AE40C4F9415CF546 /* TTMutableArray-dummy.m */; };
+		D2BD99ECED05D53E0E8AC735FE79490A /* TTMutableArray-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7113D182982AAF6F98B408A8EA57369B /* TTMutableArray-dummy.m */; };
 		DC073D5DDAB2B2CEEF8A638D5F8399DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		EB3873DA16115F6E6D6919952CFD816A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC0524184AB02AF3BD4D21EA840CDB5 /* ReplaceMe.m */; };
 		FD56F7E7A70BB1134200E6E2AE98AFB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,46 +40,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07DACC62EC14A077D6FB7E699D52BE85 /* NSMutableArray+TTObserverable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+TTObserverable.h"; path = "TTMutableArray/Classes/NSMutableArray+TTObserverable.h"; sourceTree = "<group>"; };
 		0B8A63FD517DFA47068F7E881DC4D565 /* Pods_TTMutableArray_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TTMutableArray_Tests.framework; path = "Pods-TTMutableArray_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		17D08AA28EB2C52C88CDCF1CE37D3651 /* TTMutableArray-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTMutableArray-umbrella.h"; sourceTree = "<group>"; };
+		132A9C3C7B87E51BA01C17BAF6303B05 /* TTMutableArray.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTMutableArray.modulemap; sourceTree = "<group>"; };
+		14A805D2D587CAEF227E864F90E3FEBB /* NSMutableArray+TTObserverable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+TTObserverable.m"; path = "TTMutableArray/Classes/NSMutableArray+TTObserverable.m"; sourceTree = "<group>"; };
 		1CA9AD03A5E8048776981B5C86E78667 /* Pods-TTMutableArray_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTMutableArray_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3B658FFAAC697C5B8D6CCD9198BBC558 /* Pods-TTMutableArray_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTMutableArray_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		411D4425003F8AC3B98A4BC7CDA60D64 /* Pods-TTMutableArray_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTMutableArray_Tests-dummy.m"; sourceTree = "<group>"; };
+		4A68D8313386376A44D7E9EC54FE82AB /* TTMutableArray-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTMutableArray-prefix.pch"; sourceTree = "<group>"; };
 		4EE55339B933A3184C8BF1AF32AFB9C8 /* Pods_TTMutableArray_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TTMutableArray_Example.framework; path = "Pods-TTMutableArray_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FC0524184AB02AF3BD4D21EA840CDB5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TTMutableArray/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		51B13EB404123DC41D421F7E80CABAAB /* Pods-TTMutableArray_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTMutableArray_Example-umbrella.h"; sourceTree = "<group>"; };
-		52CD6B37EEABECC98B71C049FA1CD922 /* TTMutableArray.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTMutableArray.xcconfig; sourceTree = "<group>"; };
 		6D1D5119A2D8B6B87485BB6E5745E71F /* Pods-TTMutableArray_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTMutableArray_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6D84AFEDB75D30445440DAC50F6DF9D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6F0CE1951E97965963829095DC0C6B36 /* Pods-TTMutableArray_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTMutableArray_Tests.modulemap"; sourceTree = "<group>"; };
+		7113D182982AAF6F98B408A8EA57369B /* TTMutableArray-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTMutableArray-dummy.m"; sourceTree = "<group>"; };
+		71562DBCD65B168F10795CB7EF424A50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		731F57D74D18495A1A132BAF72181BCB /* Pods-TTMutableArray_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTMutableArray_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73C2E7C3FCC3D5DBF0DF3437079AB2F5 /* Pods-TTMutableArray_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTMutableArray_Example.release.xcconfig"; sourceTree = "<group>"; };
-		74AE3C1E388A93B849F50F371A9723D3 /* TTMutableArray-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTMutableArray-prefix.pch"; sourceTree = "<group>"; };
-		76E4D50DF6D82E8976F8CA7A84E4827B /* TTMutableArray.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TTMutableArray.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7A032AC32B0BC946B87E48B6D305990F /* Pods-TTMutableArray_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTMutableArray_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		84716FA1B39DFE1A77F5CF60F9371FCF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9408419E36C7D5E06A3653BC267ABC5F /* TTMutableArray-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TTMutableArray-Info.plist"; sourceTree = "<group>"; };
+		802F44A25AA2ACF08AA9FA7421691609 /* TTMutableArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTMutableArray.h; path = TTMutableArray/Classes/TTMutableArray.h; sourceTree = "<group>"; };
+		850FE7098EEFA2A69F74BEB7DFB8EE72 /* TTMutableArray.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TTMutableArray.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9548F26E7B0E6E7ABA8595228E480C39 /* TTMutableArray-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTMutableArray-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A11273457637A064B37D5D05F46EABE6 /* TTMutableArray-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TTMutableArray-Info.plist"; sourceTree = "<group>"; };
+		A53423D5B091BEFE97ECDDD6AAD9E5EE /* TTMutableArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTMutableArray.m; path = TTMutableArray/Classes/TTMutableArray.m; sourceTree = "<group>"; };
 		B754C7EB349DA150177A3F2EEAEB92ED /* TTMutableArray.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTMutableArray.framework; path = TTMutableArray.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD48A03DDC15C568FA0C92700B7BB091 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C0DA9F5CAEA90292E4736BC5F6FBB582 /* Pods-TTMutableArray_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTMutableArray_Tests-Info.plist"; sourceTree = "<group>"; };
 		C82086DFE2FEA2D1943CDA27A93D5641 /* Pods-TTMutableArray_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTMutableArray_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D03705DD2615E41CF50527C83AC75670 /* TTMutableArray.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTMutableArray.xcconfig; sourceTree = "<group>"; };
 		D1347784139F2F7880449AA1B73B79FD /* Pods-TTMutableArray_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTMutableArray_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D599968F4462EEEF0B9208ABB83D96D8 /* TTMutableArray.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTMutableArray.modulemap; sourceTree = "<group>"; };
 		E5245F3F9F8C3893CF94CA75B3089651 /* Pods-TTMutableArray_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTMutableArray_Example.modulemap"; sourceTree = "<group>"; };
 		ED1704A7FE675D9F7E269B25DEF13DFC /* Pods-TTMutableArray_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTMutableArray_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ED4AC53F2C633FCAA41BA274ED5C7986 /* Pods-TTMutableArray_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTMutableArray_Example-Info.plist"; sourceTree = "<group>"; };
 		F37060013F2FD67FB6945904C8A1ADDF /* Pods-TTMutableArray_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTMutableArray_Example-dummy.m"; sourceTree = "<group>"; };
 		F758CE0AE0AFF98904086F3072B3F2DE /* Pods-TTMutableArray_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTMutableArray_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FCB05FE5AF8E39A7AE40C4F9415CF546 /* TTMutableArray-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTMutableArray-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5D948C30D8F8BD35E2B209F5D986027C /* Frameworks */ = {
+		3BCB433EDFDFB0ED319F3606E0F18B6A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63489D627F217290579700C7BEE26361 /* Foundation.framework in Frameworks */,
+				2AA1619CC21AA8F1382859AE2DF38A57 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,33 +122,50 @@
 			path = "Target Support Files/Pods-TTMutableArray_Example";
 			sourceTree = "<group>";
 		};
-		2CE6A069A074C98B35E72105FF515FC8 /* Pod */ = {
+		34B788887887C9F597AA237F4A272E1D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				84716FA1B39DFE1A77F5CF60F9371FCF /* LICENSE */,
-				6D84AFEDB75D30445440DAC50F6DF9D9 /* README.md */,
-				76E4D50DF6D82E8976F8CA7A84E4827B /* TTMutableArray.podspec */,
+				BD48A03DDC15C568FA0C92700B7BB091 /* LICENSE */,
+				71562DBCD65B168F10795CB7EF424A50 /* README.md */,
+				850FE7098EEFA2A69F74BEB7DFB8EE72 /* TTMutableArray.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		3A50711664CFD314A0BCBAAAC66D8047 /* TTMutableArray */ = {
+		37F92960E611DA1A5B83D590310486A4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4FC0524184AB02AF3BD4D21EA840CDB5 /* ReplaceMe.m */,
-				2CE6A069A074C98B35E72105FF515FC8 /* Pod */,
-				B27B5CF1CCECC0EA751FA97DBCA2C21F /* Support Files */,
+				70B7A4532E14B51656D32111DBDF7847 /* TTMutableArray */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		515D09F07E172EA30ED8DABEA6068174 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				132A9C3C7B87E51BA01C17BAF6303B05 /* TTMutableArray.modulemap */,
+				D03705DD2615E41CF50527C83AC75670 /* TTMutableArray.xcconfig */,
+				7113D182982AAF6F98B408A8EA57369B /* TTMutableArray-dummy.m */,
+				A11273457637A064B37D5D05F46EABE6 /* TTMutableArray-Info.plist */,
+				4A68D8313386376A44D7E9EC54FE82AB /* TTMutableArray-prefix.pch */,
+				9548F26E7B0E6E7ABA8595228E480C39 /* TTMutableArray-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TTMutableArray";
+			sourceTree = "<group>";
+		};
+		70B7A4532E14B51656D32111DBDF7847 /* TTMutableArray */ = {
+			isa = PBXGroup;
+			children = (
+				07DACC62EC14A077D6FB7E699D52BE85 /* NSMutableArray+TTObserverable.h */,
+				14A805D2D587CAEF227E864F90E3FEBB /* NSMutableArray+TTObserverable.m */,
+				802F44A25AA2ACF08AA9FA7421691609 /* TTMutableArray.h */,
+				A53423D5B091BEFE97ECDDD6AAD9E5EE /* TTMutableArray.m */,
+				34B788887887C9F597AA237F4A272E1D /* Pod */,
+				515D09F07E172EA30ED8DABEA6068174 /* Support Files */,
 			);
 			name = TTMutableArray;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		579C6405762A52CA0D44E31572927A78 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3A50711664CFD314A0BCBAAAC66D8047 /* TTMutableArray */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		8837D904245D561914AB08B57BFF06EB /* Pods-TTMutableArray_Tests */ = {
@@ -170,20 +193,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B27B5CF1CCECC0EA751FA97DBCA2C21F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D599968F4462EEEF0B9208ABB83D96D8 /* TTMutableArray.modulemap */,
-				52CD6B37EEABECC98B71C049FA1CD922 /* TTMutableArray.xcconfig */,
-				FCB05FE5AF8E39A7AE40C4F9415CF546 /* TTMutableArray-dummy.m */,
-				9408419E36C7D5E06A3653BC267ABC5F /* TTMutableArray-Info.plist */,
-				74AE3C1E388A93B849F50F371A9723D3 /* TTMutableArray-prefix.pch */,
-				17D08AA28EB2C52C88CDCF1CE37D3651 /* TTMutableArray-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TTMutableArray";
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,7 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				579C6405762A52CA0D44E31572927A78 /* Development Pods */,
+				37F92960E611DA1A5B83D590310486A4 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				F5CD8D4C025BEE78B68C091F5352BE29 /* Products */,
 				A71EA597611B50EE1B2AFB456E7D481D /* Targets Support Files */,
@@ -224,14 +233,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1E350F6BE00A9E2464FDABED0FC8C994 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE8B627FDD8A635C125FA308B5E3A12C /* TTMutableArray-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3F53E62222E789718C28BFC18B27E864 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,17 +249,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		946061635F33F6ED5E24A54B8F8DFB67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1824B1FD8F8AB4FCC15F122BB962AB65 /* NSMutableArray+TTObserverable.h in Headers */,
+				32654940143871449DD72FBBE99873B1 /* TTMutableArray-umbrella.h in Headers */,
+				01DE0306EFC89ED6C8DDB19A8B2AA3D0 /* TTMutableArray.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		6CA70AE815AF2EF1FB5AE9A1956EB31D /* TTMutableArray */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8A3D8B161539766F360FFF08C613DAA /* Build configuration list for PBXNativeTarget "TTMutableArray" */;
+			buildConfigurationList = 2C27E1309128E895A69EE92711F41684 /* Build configuration list for PBXNativeTarget "TTMutableArray" */;
 			buildPhases = (
-				1E350F6BE00A9E2464FDABED0FC8C994 /* Headers */,
-				FC14F439F04E57AC73665762D748A456 /* Sources */,
-				5D948C30D8F8BD35E2B209F5D986027C /* Frameworks */,
-				9EE3C19EA6F519F52594858D58D6976B /* Resources */,
+				946061635F33F6ED5E24A54B8F8DFB67 /* Headers */,
+				A4D3E7356BD468DD1B83A10D7B6C37AD /* Sources */,
+				3BCB433EDFDFB0ED319F3606E0F18B6A /* Frameworks */,
+				5194D9F8BF71BD8687DA640A97755D04 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -337,14 +348,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		967DF224D2EBF657B748520FDE65C002 /* Resources */ = {
+		5194D9F8BF71BD8687DA640A97755D04 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EE3C19EA6F519F52594858D58D6976B /* Resources */ = {
+		967DF224D2EBF657B748520FDE65C002 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,12 +388,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC14F439F04E57AC73665762D748A456 /* Sources */ = {
+		A4D3E7356BD468DD1B83A10D7B6C37AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB3873DA16115F6E6D6919952CFD816A /* ReplaceMe.m in Sources */,
-				DBBC821F1FDB98ADE52E148DB5CEC99F /* TTMutableArray-dummy.m in Sources */,
+				A3679FBA84918D22FA853F4A50C7B8D8 /* NSMutableArray+TTObserverable.m in Sources */,
+				D2BD99ECED05D53E0E8AC735FE79490A /* TTMutableArray-dummy.m in Sources */,
+				48E4F33340D5540C9892B63CB0711215 /* TTMutableArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,40 +416,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C0A7AF96680D4E231AAE3376F041FB9 /* Debug */ = {
+		1612A1919998DCD65308CD7949FBF034 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52CD6B37EEABECC98B71C049FA1CD922 /* TTMutableArray.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TTMutableArray/TTMutableArray-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TTMutableArray/TTMutableArray-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TTMutableArray/TTMutableArray.modulemap";
-				PRODUCT_MODULE_NAME = TTMutableArray;
-				PRODUCT_NAME = TTMutableArray;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2267622E54958B9097BBACDA1DF1999E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52CD6B37EEABECC98B71C049FA1CD922 /* TTMutableArray.xcconfig */;
+			baseConfigurationReference = D03705DD2615E41CF50527C83AC75670 /* TTMutableArray.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -466,6 +447,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		31227944B86EADA3488DDD9188AEB1F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D03705DD2615E41CF50527C83AC75670 /* TTMutableArray.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTMutableArray/TTMutableArray-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTMutableArray/TTMutableArray-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTMutableArray/TTMutableArray.modulemap";
+				PRODUCT_MODULE_NAME = TTMutableArray;
+				PRODUCT_NAME = TTMutableArray;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		3F85953D5C2025EBAA5C5AC788771965 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -728,6 +740,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2C27E1309128E895A69EE92711F41684 /* Build configuration list for PBXNativeTarget "TTMutableArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31227944B86EADA3488DDD9188AEB1F0 /* Debug */,
+				1612A1919998DCD65308CD7949FBF034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -751,15 +772,6 @@
 			buildConfigurations = (
 				AA6F990559DD90DD5B9C539E9CF44FA7 /* Debug */,
 				CDD05C6797ECFAF9A58A57053621A0CB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B8A3D8B161539766F360FFF08C613DAA /* Build configuration list for PBXNativeTarget "TTMutableArray" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1C0A7AF96680D4E231AAE3376F041FB9 /* Debug */,
-				2267622E54958B9097BBACDA1DF1999E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
