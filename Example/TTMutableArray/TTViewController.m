@@ -23,8 +23,8 @@
 {
     [super viewDidLoad];
     
-//    [self testTTMutableArray];
-    [self testNSMutableArray];
+    [self testTTMutableArray];
+//    [self testNSMutableArray];
 }
 
 - (void)testTTMutableArray {
@@ -81,6 +81,10 @@
 
 - (void)mutableArray:(NSMutableArray *)array didReplaceObjects:(NSArray *)objects atIndexes:(NSIndexSet *)indexes {
     NSLog(@"========> did replace %@, %@ \n result %@", objects, indexes, array);
+}
+
+- (void)mutableArray:(NSMutableArray *)array beReplacedObjects:(NSArray *)objects atIndexes:(NSIndexSet *)indexes {
+    NSLog(@"========> be replaced %@, %@ \n result %@", objects, indexes, array);
 }
 
 @end
